@@ -1,0 +1,10 @@
+{
+    "name": "atesi/css-less-margin-padding-helper",
+    "authors": [
+        {
+            "name": "Alessandro Tesi",
+            "email": "alessandro.tesi@perfecthair.ch"
+        }
+    ],
+    "require": {}
+}

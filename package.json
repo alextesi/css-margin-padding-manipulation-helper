@@ -1,0 +1,30 @@
+{
+    "name": "alextesi/css-margin-padding-manipulation-helper",
+    "description": "A Simple padding and margin manipulationl ibrary",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "alessandro tesi",
+            "email": "alextesi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "main": "index.js",
+    "scripts": {
+    "dev": "webpack --mode=development",
+    "prod": "NODE_ENV=production webpack --mode=production"
+    },
+    "keywords": [],
+    "require": {},
+    "devDependencies": {
+        "babel-loader": "^8.0.5",
+        "css-loader": "^2.1.0",
+        "less": "^3.9.0",
+        "less-loader": "^4.1.0",
+        "mini-css-extract-plugin": "^0.5.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.29.3",
+        "webpack-cli": "^3.2.3"
+    }
+}
