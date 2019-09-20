@@ -1,23 +1,28 @@
 {
-    "name": "alextesi/css-margin-padding-manipulation-helper",
+    "name": "css-less-margin-padding-helper",
     "description": "A Simple padding and margin manipulationl ibrary",
     "type": "library",
-    "license": "mit",
-    "authors": [
-        {
-            "name": "alessandro tesi",
-            "email": "alextesi@gmail.com"
-        }
-    ],
+    "license": "MIT",
+    "version": "3.1.1",
+    "repository": "github:alextesi/css-less-margin-padding-helper",
+    "author": {
+        "name": "Alessandro Tesi",
+        "email": "alextesi@gmail.com",
+        "url": "https://github.com/alextesi"
+    },
+    "contributors": [],
     "minimum-stability": "dev",
     "main": "index.js",
     "scripts": {
-    "dev": "webpack --mode=development",
-    "prod": "NODE_ENV=production webpack --mode=production"
+        "dev": "webpack --mode=development",
+        "prod": "NODE_ENV=production webpack --mode=production"
     },
     "keywords": [],
     "require": {},
+    "bugs": "https://github.com/alextesi/css-margin-padding-manipulation-helper/issues",
+    "homepage": "https://github.com/alextesi/css-margin-padding-manipulation-helper",
     "devDependencies": {
+        "@babel/core": "^7.6.0",
         "babel-loader": "^8.0.5",
         "css-loader": "^2.1.0",
         "less": "^3.9.0",
